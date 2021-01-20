@@ -23,3 +23,4 @@ def output_array(quote)
     puts quote[counter]
     counter += 1 
   end
+end
