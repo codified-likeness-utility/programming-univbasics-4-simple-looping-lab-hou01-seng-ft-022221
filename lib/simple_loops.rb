@@ -15,3 +15,4 @@ def loop_message_n_times(message, number)
     puts message[number]
     number += 1
   end
+end
