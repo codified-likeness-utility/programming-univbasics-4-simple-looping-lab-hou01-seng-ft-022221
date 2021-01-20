@@ -16,11 +16,11 @@ def loop_message_n_times(message, number)
     number += 1
   end
   
-def output_array(array)
+def output_array(quote)
   counter = 0 
   
-  while counter < array.length do
-    puts array[counter]
+  while counter < quote.length do
+    puts quote[counter]
     counter += 1 
   end
 end
