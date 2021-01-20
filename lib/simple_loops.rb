@@ -10,11 +10,11 @@ def loop_message_five_times(message)
 end
 
 def loop_message_n_times(message, number)
-  number = 0
+  counter = 0
   
-  while number < message.length do
+  while counter < number do
     puts message
-    number += 1
+    counter += 1
   end
 end
   
@@ -30,9 +30,8 @@ end
 def return_string_array(array)
   counter = 0
   
-  #loop over the array
   while array[counter] do
-    #convert each element to a string
+    array[counter].to_s
     counter += 1 
     
   end
