@@ -35,5 +35,5 @@ def return_string_array(array)
   end
 end
 
-new_array = array.to_s
+new_array = Array.new([array.to_s])
 return_string_array(new_array)
