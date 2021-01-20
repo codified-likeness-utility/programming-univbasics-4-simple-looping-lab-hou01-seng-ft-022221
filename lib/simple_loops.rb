@@ -29,11 +29,9 @@ end
 def return_string_array(array)
   counter = 0
   
+  #loop over the array
   while array[counter] do
-    puts array[counter]
+    #convert each element to a string
     counter += 1 
   end
 end
-
-new_array = Array.new([array.to_s])
-return_string_array(new_array)
