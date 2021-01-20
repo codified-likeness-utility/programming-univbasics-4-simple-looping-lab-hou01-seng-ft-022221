@@ -33,5 +33,8 @@ def return_string_array(array)
   while array[counter] do
     #convert each element to a string
     counter += 1 
+    
+    #return new array of strings
+    new_array_of_strings
   end
 end
