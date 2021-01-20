@@ -19,7 +19,7 @@ def loop_message_n_times(message, number)
 def output_array(quote)
   counter = 0 
   
-  while counter < quote.length do
+  while quote[counter] do
     puts quote[counter]
     counter += 1 
   end
