@@ -15,6 +15,7 @@ def loop_message_n_times(message, number)
     puts message
     number += 1
   end
+end
   
 def output_array(quote)
   counter = 0 
